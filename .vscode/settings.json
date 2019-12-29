@@ -1,0 +1,11 @@
+{
+  "editor.formatOnSave": true,
+  "editor.tabSize": 2,
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "workbench.colorCustomizations": {
+    "activityBar.activeBackground": "#295c8a",
+    "window.activeBorder": "#ff0000",
+    "window.inactiveBorder": "#b8b8b8"
+  },
+  "editor.minimap.scale": 3
+}

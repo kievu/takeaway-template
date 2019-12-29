@@ -1,16 +1,22 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "kebab-template",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "Template for kebab sites",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Kien Vu",
   "dependencies": {
+    "@material-ui/core": "^4.8.1",
+    "@material-ui/icons": "^4.5.1",
+    "@material-ui/styles": "^4.7.1",
     "gatsby": "^2.18.12",
     "gatsby-image": "^2.2.34",
+    "gatsby-plugin-google-fonts": "^1.0.1",
     "gatsby-plugin-manifest": "^2.2.31",
+    "gatsby-plugin-material-ui": "^2.1.6",
     "gatsby-plugin-offline": "^3.0.27",
     "gatsby-plugin-react-helmet": "^3.1.16",
     "gatsby-plugin-sharp": "^2.3.5",
+    "gatsby-plugin-typescript": "^2.1.23",
     "gatsby-source-filesystem": "^2.1.40",
     "gatsby-transformer-sharp": "^2.3.7",
     "prop-types": "^15.7.2",
@@ -19,7 +25,8 @@
     "react-helmet": "^5.2.1"
   },
   "devDependencies": {
-    "prettier": "^1.19.1"
+    "prettier": "^1.19.1",
+    "typescript": "^3.7.4"
   },
   "keywords": [
     "gatsby"
@@ -27,7 +34,7 @@
   "license": "MIT",
   "scripts": {
     "build": "gatsby build",
-    "develop": "gatsby develop",
+    "dev": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
     "start": "npm run develop",
     "serve": "gatsby serve",
